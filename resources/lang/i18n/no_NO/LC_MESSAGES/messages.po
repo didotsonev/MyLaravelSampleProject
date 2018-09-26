@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MultilanguageLaravelApplication\n"
+"POT-Creation-Date: 2018-09-17 16:46+0200\n"
+"PO-Revision-Date: 2018-09-17 19:06+0200\n"
+"Last-Translator: James Translator <james@translations.colm>\n"
+"Language-Team: James Translator <james@translations.colm>\n"
+"Language: no_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: _;__;_i;_s;gettext;_n:1,2;ngettext:1,2;dgettext:2\n"
+"X-Poedit-Basepath: ../../../../../app\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: Http\n"
+"X-Poedit-SearchPath-1: ../resources/views\n"
+"X-Poedit-SearchPath-2: Console\n"
+"X-Poedit-SearchPath-3: ../storage/framework/messages\n"
+
+#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:57
+msgid "Toggle navigation"
+msgstr ""
+
+#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:72
+#: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:6
+#: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:56
+msgid "Login"
+msgstr ""
+
+#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:75
+#: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:6
+#: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:65
+msgid "Register"
+msgstr ""
+
+#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:87
+msgid "Logout"
+msgstr ""
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:9
+#: Http/Localization/JS.php:9
+msgid "Whoops something went wrong."
+msgstr ""
+
+#: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:6
+#: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:53
+#: ../storage/framework/messages/d3ba4bd12542809745805ec88a9365f4126fcf11.php.php:6
+msgid "Reset Password"
+msgstr ""
+
+#: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:15
+#: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:27
+#: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:13
+#: ../storage/framework/messages/d3ba4bd12542809745805ec88a9365f4126fcf11.php.php:20
+msgid "E-Mail Address"
+msgstr ""
+
+#: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:29
+#: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:41
+#: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:27
+msgid "Password"
+msgstr ""
+
+#: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:43
+#: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:55
+msgid "Confirm Password"
+msgstr ""
+
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:6
+msgid "Companies"
+msgstr ""
+
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:9
+msgid "Create new company"
+msgstr ""
+
+#: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:6
+msgid "Verify Your Email Address"
+msgstr ""
+
+#: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:11
+msgid "A fresh verification link has been sent to your email address."
+msgstr ""
+
+#: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:16
+msgid "Before proceeding, please check your email for a verification link."
+msgstr ""
+
+#: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:18
+msgid "If you did not receive the email"
+msgstr ""
+
+#: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:18
+msgid "click here to request another"
+msgstr ""
+
+#: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:13
+msgid "Name"
+msgstr ""
+
+#: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:46
+msgid "Remember Me"
+msgstr ""
+
+#: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:61
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: ../storage/framework/messages/7ffe4041d25a4a1313075477c9f3409bcf1d82a9.php.php:118
+#: Http/Controllers/CompanyController.php:118
+msgid "Company delete successfully"
+msgstr ""
+
+#: ../storage/framework/messages/d3ba4bd12542809745805ec88a9365f4126fcf11.php.php:36
+msgid "Send Password Reset Link"
+msgstr ""

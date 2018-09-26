@@ -1,0 +1,50 @@
+#companiesDataTable_wrapper {
+    margin-top: 10px;
+}
+
+/* LANGUAGE */
+
+#no {
+    background-image: url("../images/flags/norway.png")
+}
+
+#en {
+    background-image: url("../images/flags/united-kingdom.png")
+}
+
+.bootbox .modal-header{
+    display: block;
+}
+
+.languages {
+    float: right;
+    margin: 6px 0 0 0;
+}
+
+.flag.active-language {
+    opacity: 0.4;
+}
+
+.languages a {
+    display: inline-block;
+}
+
+.flag {
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+    opacity: 1;
+    background-size: contain;
+}
+
+.clickable_row {
+    cursor: pointer;
+}
+
+.highlight:hover {
+    background-color: whitesmoke !important;
+}
+
+.bottom-space-btn {
+    margin: 0 0 10px;
+}
