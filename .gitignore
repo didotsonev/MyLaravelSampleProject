@@ -20,6 +20,5 @@ composer.json
 composer.lock
 package.json
 phpunit.xml
-readme.md
 server.php
 webpack.mix.js
