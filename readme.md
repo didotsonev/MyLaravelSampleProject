@@ -4,7 +4,7 @@
 
 This project was made to show my developer skills with Laravel, JQuery and my practical knowledge of them. 
 
-####Business rules
+#### Business rules
 Basically, this is a project to manage companies and their employees. Mini-CRM.
 
 - The company name is required, email is required and must be unique
@@ -33,12 +33,12 @@ With this simple project you can check the using of the following things:
 
 ## How to run the project locally
 
-####Requirements 
+#### Requirements 
 
 - Everything to run laravel 5.7 (apache + php + mysql)
 - Composer
 
-####Steps
+#### Steps
 
 - Download/clone the project
 - Create a database locally with utf8_general_ci collation
