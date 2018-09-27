@@ -54,7 +54,7 @@
                     <?php echo e(config('app.name')); ?>
 
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="<?php echo e(__('Toggle navigation')); ?>">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="<?php echo e(_i('Toggle navigation')); ?>">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -103,7 +103,7 @@
                                     <a class="dropdown-item" href="<?php echo e(route('logout')); ?>"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        <?php echo e(__('Logout')); ?>
+                                        <?php echo e(_i('Logout')); ?>
 
                                     </a>
 
