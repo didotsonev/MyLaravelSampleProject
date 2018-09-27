@@ -1,9 +1,11 @@
 $(document).ready(function() {
     $('#companiesDataTable').DataTable({
         "language": {
-        "lengthMenu": window.lang.dt_lengthMenu,
+            "lengthMenu": window.lang.dt_lengthMenu,
             "search": window.lang.dt_search,
             "info": window.lang.dt_info,
+            "infoEmpty": window.lang.dt_info_empty,
+            "zeroRecords": window.lang.dt_zero_records,
             "paginate": {
                 "next": window.lang.dt_next,
                 "previous": window.lang.dt_previous

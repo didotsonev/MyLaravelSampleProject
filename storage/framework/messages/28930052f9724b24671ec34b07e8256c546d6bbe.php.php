@@ -6,11 +6,13 @@ class JS {
     public static function all() {
 
         return [
-            "dt_next" => __("Next"),
-            "dt_previous" => __("Previous"),
-            "dt_info" => __("Showing _START_ to _END_ of _TOTAL_ entries"),
-            "dt_lengthMenu" => __("Show _MENU_ entries"),
-            "dt_search" => __("Search:"),
+            "dt_next" => _i("Next"),
+            "dt_previous" => _i("Previous"),
+            "dt_info" => _i("Showing _START_ to _END_ of _TOTAL_ entries"),
+            "dt_lengthMenu" => _i("Show _MENU_ entries"),
+            "dt_search" => _i("Search:"),
+            "dt_info_empty" => _i("Showing 0 to 0 of 0 records"),
+            "dt_zero_records" => _i("No data available in table"),
             "unexpected_error_title" => _i("Whoops something went wrong."),
             "unexpected_error_message" => _i("An unexpected error occurred. Please try again later."),
             "error_bootbox_title" => _i("There is a problem"),

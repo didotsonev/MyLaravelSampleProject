@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
-"POT-Creation-Date: 2018-09-27 11:10+0200\n"
-"PO-Revision-Date: 2018-09-27 11:13+0200\n"
+"POT-Creation-Date: 2018-09-27 11:34+0200\n"
+"PO-Revision-Date: 2018-09-27 11:34+0200\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: no_NO\n"
@@ -110,46 +110,56 @@ msgstr "Søke:"
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:14
 #: Http/Localization/JS.php:14
-msgid "Whoops something went wrong."
-msgstr "Whoops gikk noe galt."
+msgid "Showing 0 to 0 of 0 records"
+msgstr "Viser 0 til 0 av 0 innganger"
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:15
 #: Http/Localization/JS.php:15
-msgid "An unexpected error occurred. Please try again later."
-msgstr "En uventet feil oppstod. Prøv igjen senere."
+msgid "No data available in table"
+msgstr "Ingen data tilgjengelig i tabellen"
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:16
 #: Http/Localization/JS.php:16
-msgid "There is a problem"
-msgstr "Det er et problem"
+msgid "Whoops something went wrong."
+msgstr "Whoops gikk noe galt."
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:17
 #: Http/Localization/JS.php:17
-msgid "Error"
-msgstr "Feil"
+msgid "An unexpected error occurred. Please try again later."
+msgstr "En uventet feil oppstod. Prøv igjen senere."
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:18
 #: Http/Localization/JS.php:18
-msgid "Are you sure that you want to delete this company?"
-msgstr "Er du sikker på at du vil slette dette firmaet?"
+msgid "There is a problem"
+msgstr "Det er et problem"
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:19
 #: Http/Localization/JS.php:19
-msgid "Company successfully updated"
-msgstr "Selskapet er oppdatert"
+msgid "Error"
+msgstr "Feil"
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:20
 #: Http/Localization/JS.php:20
-msgid "Employee successfully updated"
-msgstr "Ansatt oppdatert"
+msgid "Are you sure that you want to delete this company?"
+msgstr "Er du sikker på at du vil slette dette firmaet?"
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:21
 #: Http/Localization/JS.php:21
-msgid "Are you sure that you want to delete this employee?"
-msgstr "Er du sikker på at du vil slette denne ansatt?"
+msgid "Company successfully updated"
+msgstr "Selskapet er oppdatert"
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:22
 #: Http/Localization/JS.php:22
+msgid "Employee successfully updated"
+msgstr "Ansatt oppdatert"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:23
+#: Http/Localization/JS.php:23
+msgid "Are you sure that you want to delete this employee?"
+msgstr "Er du sikker på at du vil slette denne ansatt?"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:24
+#: Http/Localization/JS.php:24
 msgid "Employee successfully deleted"
 msgstr "Medarbeider slettet"
 
