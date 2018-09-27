@@ -15,8 +15,8 @@
     <script src="<?php echo e(asset('js/bootstrap.js')); ?>"></script>
     <script src="<?php echo e(asset('js/main_functions.js')); ?>"></script>
     <script src="<?php echo e(asset('js/functions.js')); ?>"></script>
-    <script src="<?php echo e(asset('js/bootbox.min.js')); ?>"></script>
     <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="<?php echo e(asset('js/bootbox.min.js')); ?>"></script>
 
     <script>
         window.Laravel = <?php echo json_encode([
@@ -41,7 +41,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
+    
     <link href="<?php echo e(asset('css/style.css')); ?>" rel="stylesheet">
     <link href="<?php echo e(asset('/css/bootstrap.min.css')); ?>" rel="stylesheet">
     <link href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
@@ -51,7 +51,7 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="<?php echo e(url('/')); ?>">
-                    <?php echo e(config('app.name', 'Laravel')); ?>
+                    <?php echo e(config('app.name')); ?>
 
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="<?php echo e(__('Toggle navigation')); ?>">
@@ -66,13 +66,32 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                        
+                        <div class="languages">
+                            <a title="English" id="en"
+                               <?php if(LaravelGettext::getLocale() == 'en_US'): ?>
+                                   class="flag active-language"
+                               <?php else: ?>
+                                   class="flag"
+                               <?php endif; ?>
+                               href="<?php echo e(url('language/en_US')); ?>" data-language="en"></a>
+
+                            <a title="Norwegian" id="no"
+                               <?php if(LaravelGettext::getLocale() == 'no_NO'): ?>
+                                   class="flag active-language"
+                               <?php else: ?>
+                                   class="flag"
+                               <?php endif; ?>
+                               href="<?php echo e(url('language/no_NO')); ?>" data-language="nl"></a>
+                        </div>
+
                         <!-- Authentication Links -->
                         <?php if(auth()->guard()->guest()): ?>
                             <li class="nav-item">
-                                <a class="nav-link" href="<?php echo e(route('login')); ?>"><?php echo e(__('Login')); ?></a>
+                                <a class="nav-link" href="<?php echo e(route('login')); ?>"><?php echo e(_i('Login')); ?></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="<?php echo e(route('register')); ?>"><?php echo e(__('Register')); ?></a>
+                                <a class="nav-link" href="<?php echo e(route('register')); ?>"><?php echo e(_i('Register')); ?></a>
                             </li>
                         <?php else: ?>
                             <li class="nav-item dropdown">

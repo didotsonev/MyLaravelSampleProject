@@ -1,10 +1,9 @@
 <table id="companiesDataTable" class="table table-bordered">
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Website</th>
-            <th></th>
+            <th><?php echo e(_i("Name")); ?></th>
+            <th><?php echo e(_i("Email")); ?></th>
+            <th><?php echo e(_i("Website")); ?></th>
         </tr>
     </thead>
     <tbody>

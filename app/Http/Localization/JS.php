@@ -6,6 +6,11 @@ class JS {
     public static function all() {
 
         return [
+            "dt_next" => _i("Next"),
+            "dt_previous" => _i("Previous"),
+            "dt_info" => _i("Showing _START_ to _END_ of _TOTAL_ entries"),
+            "dt_lengthMenu" => _i("Show _MENU_ entries"),
+            "dt_search" => _i("Search:"),
             "unexpected_error_title" => _i("Whoops something went wrong."),
             "unexpected_error_message" => _i("An unexpected error occurred. Please try again later."),
             "error_bootbox_title" => _i("There is a problem"),

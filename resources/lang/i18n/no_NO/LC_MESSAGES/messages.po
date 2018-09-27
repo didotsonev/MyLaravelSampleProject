@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
-"POT-Creation-Date: 2018-09-17 16:46+0200\n"
-"PO-Revision-Date: 2018-09-17 19:06+0200\n"
+"POT-Creation-Date: 2018-09-27 11:10+0200\n"
+"PO-Revision-Date: 2018-09-27 11:13+0200\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: no_NO\n"
@@ -18,100 +18,280 @@ msgstr ""
 "X-Poedit-SearchPath-2: Console\n"
 "X-Poedit-SearchPath-3: ../storage/framework/messages\n"
 
+#: ../storage/framework/messages/01aaccd78381278575e65c0b511ac825bf03f24d.php.php:4
+#: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:13
+msgid "Name"
+msgstr "Navn"
+
+#: ../storage/framework/messages/01aaccd78381278575e65c0b511ac825bf03f24d.php.php:5
+#: ../storage/framework/messages/20c9e8cdf22396b50689d1809556acafe09ebebe.php.php:21
+#: ../storage/framework/messages/50184d1069a318ed7383d01273f006e9d44c71f2.php.php:15
+#: ../storage/framework/messages/98ffa89ca9f899d0d9fdc56904f66046ecd777f8.php.php:17
+msgid "Email"
+msgstr "Epost"
+
+#: ../storage/framework/messages/01aaccd78381278575e65c0b511ac825bf03f24d.php.php:6
+#: ../storage/framework/messages/20c9e8cdf22396b50689d1809556acafe09ebebe.php.php:24
+#: ../storage/framework/messages/a9e4a3160d2f7c6bb0284e92637485bc432ef211.php.php:14
+msgid "Website"
+msgstr "Nettsted"
+
 #: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:57
 msgid "Toggle navigation"
-msgstr ""
+msgstr "Bytt navigering"
 
-#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:72
+#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:91
 #: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:6
 #: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:56
 msgid "Login"
-msgstr ""
+msgstr "Logg Inn"
 
-#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:75
+#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:94
 #: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:6
 #: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:65
 msgid "Register"
-msgstr ""
+msgstr "Register"
 
-#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:87
+#: ../storage/framework/messages/034383d5bac64c690b5738ceb76773a15d49a0b2.php.php:106
 msgid "Logout"
-msgstr ""
+msgstr "Logg ut"
+
+#: ../storage/framework/messages/20c9e8cdf22396b50689d1809556acafe09ebebe.php.php:3
+msgid "Company info"
+msgstr "Bedriftsinfo"
+
+#: ../storage/framework/messages/20c9e8cdf22396b50689d1809556acafe09ebebe.php.php:28
+msgid "Employees"
+msgstr "Ansatte"
+
+#: ../storage/framework/messages/20c9e8cdf22396b50689d1809556acafe09ebebe.php.php:32
+msgid "No employees"
+msgstr "Ingen ansatte"
+
+#: ../storage/framework/messages/20c9e8cdf22396b50689d1809556acafe09ebebe.php.php:34
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:78
+msgid "Create new employee"
+msgstr "Opprett ny ansatt"
+
+#: ../storage/framework/messages/20c9e8cdf22396b50689d1809556acafe09ebebe.php.php:40
+#: ../storage/framework/messages/98ffa89ca9f899d0d9fdc56904f66046ecd777f8.php.php:25
+msgid "Edit"
+msgstr "Redigere"
+
+#: ../storage/framework/messages/20c9e8cdf22396b50689d1809556acafe09ebebe.php.php:41
+#: ../storage/framework/messages/98ffa89ca9f899d0d9fdc56904f66046ecd777f8.php.php:26
+msgid "Delete"
+msgstr "Slett"
 
 #: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:9
 #: Http/Localization/JS.php:9
+msgid "Next"
+msgstr "Neste"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:10
+#: Http/Localization/JS.php:10
+msgid "Previous"
+msgstr "Tidligere"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:11
+#: Http/Localization/JS.php:11
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Viser _START_ til _END_ av _TOTAL_ innganger"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:12
+#: Http/Localization/JS.php:12
+msgid "Show _MENU_ entries"
+msgstr "Forestilling _MENU_ innganger"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:13
+#: Http/Localization/JS.php:13
+msgid "Search:"
+msgstr "Søke:"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:14
+#: Http/Localization/JS.php:14
 msgid "Whoops something went wrong."
-msgstr ""
+msgstr "Whoops gikk noe galt."
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:15
+#: Http/Localization/JS.php:15
+msgid "An unexpected error occurred. Please try again later."
+msgstr "En uventet feil oppstod. Prøv igjen senere."
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:16
+#: Http/Localization/JS.php:16
+msgid "There is a problem"
+msgstr "Det er et problem"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:17
+#: Http/Localization/JS.php:17
+msgid "Error"
+msgstr "Feil"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:18
+#: Http/Localization/JS.php:18
+msgid "Are you sure that you want to delete this company?"
+msgstr "Er du sikker på at du vil slette dette firmaet?"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:19
+#: Http/Localization/JS.php:19
+msgid "Company successfully updated"
+msgstr "Selskapet er oppdatert"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:20
+#: Http/Localization/JS.php:20
+msgid "Employee successfully updated"
+msgstr "Ansatt oppdatert"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:21
+#: Http/Localization/JS.php:21
+msgid "Are you sure that you want to delete this employee?"
+msgstr "Er du sikker på at du vil slette denne ansatt?"
+
+#: ../storage/framework/messages/28930052f9724b24671ec34b07e8256c546d6bbe.php.php:22
+#: Http/Localization/JS.php:22
+msgid "Employee successfully deleted"
+msgstr "Medarbeider slettet"
 
 #: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:6
 #: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:53
 #: ../storage/framework/messages/d3ba4bd12542809745805ec88a9365f4126fcf11.php.php:6
 msgid "Reset Password"
-msgstr ""
+msgstr "Tilbakestille passord"
 
 #: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:15
 #: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:27
 #: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:13
 #: ../storage/framework/messages/d3ba4bd12542809745805ec88a9365f4126fcf11.php.php:20
 msgid "E-Mail Address"
-msgstr ""
+msgstr "Epostadresse"
 
 #: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:29
 #: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:41
 #: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:27
 msgid "Password"
-msgstr ""
+msgstr "Passord"
 
 #: ../storage/framework/messages/2ce0643474f0bda3e4fe7053d17f8230e7ad553a.php.php:43
 #: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:55
 msgid "Confirm Password"
-msgstr ""
+msgstr "Bekreft passord"
 
-#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:6
-msgid "Companies"
-msgstr ""
+#: ../storage/framework/messages/4c93ec1ff048812aee22d9b16b29d264bbdc0413.php.php:213
+#: Http/Controllers/Company/CompanyController.php:213
+msgid "Company deleted successfully"
+msgstr "Selskapet slettet med hell"
 
-#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:9
+#: ../storage/framework/messages/50184d1069a318ed7383d01273f006e9d44c71f2.php.php:7
+#: ../storage/framework/messages/98ffa89ca9f899d0d9fdc56904f66046ecd777f8.php.php:11
+msgid "First name"
+msgstr "Fornavn"
+
+#: ../storage/framework/messages/50184d1069a318ed7383d01273f006e9d44c71f2.php.php:11
+#: ../storage/framework/messages/98ffa89ca9f899d0d9fdc56904f66046ecd777f8.php.php:14
+msgid "Last name"
+msgstr "Etternavn"
+
+#: ../storage/framework/messages/50184d1069a318ed7383d01273f006e9d44c71f2.php.php:19
+#: ../storage/framework/messages/98ffa89ca9f899d0d9fdc56904f66046ecd777f8.php.php:20
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:5
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:24
 msgid "Create new company"
-msgstr ""
+msgstr "Opprett nytt selskap"
+
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:11
+msgid "Companies"
+msgstr "Selskaper"
+
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:38
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:92
+msgid "Create"
+msgstr "Skape"
+
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:48
+msgid "Edit company"
+msgstr "Rediger firma"
+
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:62
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:122
+msgid "Update"
+msgstr "Oppdater"
+
+#: ../storage/framework/messages/525f310b10c8cf353b2d4078226911f9be6d979e.php.php:108
+msgid "Edit employee"
+msgstr "Rediger ansatt"
 
 #: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:6
 msgid "Verify Your Email Address"
-msgstr ""
+msgstr "Bekreft e-postadressen din"
 
 #: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:11
 msgid "A fresh verification link has been sent to your email address."
-msgstr ""
+msgstr "En ny bekreftelseslink er sendt til din e-postadresse."
 
 #: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:16
 msgid "Before proceeding, please check your email for a verification link."
-msgstr ""
+msgstr "Før du fortsetter, vennligst sjekk e-posten din for en bekreftelseskobling."
 
 #: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:18
 msgid "If you did not receive the email"
-msgstr ""
+msgstr "Hvis du ikke mottok e-posten"
 
 #: ../storage/framework/messages/625520db6f9051f4b50040eee1d3cf3768783c07.php.php:18
 msgid "click here to request another"
-msgstr ""
-
-#: ../storage/framework/messages/65ca4823394c0b89297f7ceb20c719ebabf97c8d.php.php:13
-msgid "Name"
-msgstr ""
+msgstr "klikk her for å be om en annen"
 
 #: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:46
 msgid "Remember Me"
-msgstr ""
+msgstr "Husk meg"
 
 #: ../storage/framework/messages/69c17e8572c98bb1bd314b030b236650fc640c74.php.php:61
 msgid "Forgot Your Password?"
-msgstr ""
+msgstr "Glemt passordet?"
 
-#: ../storage/framework/messages/7ffe4041d25a4a1313075477c9f3409bcf1d82a9.php.php:118
-#: Http/Controllers/CompanyController.php:118
-msgid "Company delete successfully"
-msgstr ""
+#: ../storage/framework/messages/98ffa89ca9f899d0d9fdc56904f66046ecd777f8.php.php:3
+msgid "Employee info"
+msgstr "Ansatt info"
+
+#: ../storage/framework/messages/a9e4a3160d2f7c6bb0284e92637485bc432ef211.php.php:6
+msgid "Company name"
+msgstr "Selskapsnavn"
+
+#: ../storage/framework/messages/a9e4a3160d2f7c6bb0284e92637485bc432ef211.php.php:10
+msgid "Email address"
+msgstr "Epostadresse"
+
+#: ../storage/framework/messages/a9e4a3160d2f7c6bb0284e92637485bc432ef211.php.php:19
+msgid "Current logo"
+msgstr "Nåværende logo"
+
+#: ../storage/framework/messages/a9e4a3160d2f7c6bb0284e92637485bc432ef211.php.php:19
+msgid "Missing logo"
+msgstr "Manglende logo"
+
+#: ../storage/framework/messages/a9e4a3160d2f7c6bb0284e92637485bc432ef211.php.php:21
+msgid "Logo (min. 100x100)"
+msgstr "Logo (min. 100x100)"
 
 #: ../storage/framework/messages/d3ba4bd12542809745805ec88a9365f4126fcf11.php.php:36
 msgid "Send Password Reset Link"
-msgstr ""
+msgstr "Send Passord Tilbakestill Lenke"
+
+#: ../storage/framework/messages/f563b57dd756d923ca362005dd130eb65fc2b205.php.php:51
+msgid "Hello"
+msgstr "Hallo"
+
+#: ../storage/framework/messages/f563b57dd756d923ca362005dd130eb65fc2b205.php.php:56
+msgid "Your company has been added to our application."
+msgstr "Ditt firma har blitt lagt til i vår søknad."
+
+#: ../storage/framework/messages/f563b57dd756d923ca362005dd130eb65fc2b205.php.php:66
+msgid "Regards"
+msgstr "Hilsen"
+
+#: ../storage/framework/messages/f563b57dd756d923ca362005dd130eb65fc2b205.php.php:85
+msgid "All rights reserved"
+msgstr "Alle rettigheter reservert"

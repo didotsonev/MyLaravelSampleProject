@@ -1,5 +1,15 @@
 $(document).ready(function() {
-    $('#companiesDataTable').DataTable();
+    $('#companiesDataTable').DataTable({
+        "language": {
+        "lengthMenu": window.lang.dt_lengthMenu,
+            "search": window.lang.dt_search,
+            "info": window.lang.dt_info,
+            "paginate": {
+                "next": window.lang.dt_next,
+                "previous": window.lang.dt_previous
+            },
+        }
+    });
 });
 
 function createCompany() {
@@ -25,7 +35,17 @@ function createCompany() {
         jQuery("#companiesDataTable tbody").append(data);
 
         //draw the datatable again
-        $('#companiesDataTable').DataTable();
+        $('#companiesDataTable').DataTable({
+            "language": {
+                "lengthMenu": window.lang.dt_lengthMenu,
+                "search": window.lang.dt_search,
+                "info": window.lang.dt_info,
+                "paginate": {
+                    "next": window.lang.dt_next,
+                    "previous": window.lang.dt_previous
+                },
+            }
+        });
 
         //go to the last datatable page
         $("#companiesDataTable").DataTable().page('last').draw('page');
